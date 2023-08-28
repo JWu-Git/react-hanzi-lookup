@@ -36,7 +36,7 @@ npm install
 
 8\. **Leave src/globals.d.ts unchanged**
 
-9\. **Install Dependencies**: Run this command to compile your /dist folder
+9\. **Build the dist folder**: Run this command to compile your /dist folder
 
 ```
 
@@ -44,7 +44,7 @@ npm run build-lib
 
 ```
 
-10\. **Install Dependencies**: Login to npm if you have not via the terminal..
+10\. **Login to NPM via terminal if you are not logged in**
 
 ```
 
@@ -52,7 +52,7 @@ npm login
 
 ```
 
-11\. **Install Dependencies**: Publish to NPM
+11\. **Publish to NPM**: Publish to NPM
 
 ```
 
