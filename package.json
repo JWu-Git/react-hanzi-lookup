@@ -1,19 +1,14 @@
 {
-  "name": "react-library-boilerplate-for-npm",
-  "version": "1.0.4",
-  "description": "Boilerplate for creating a React + Typescript component library, with Rollup configs set.",
+  "name": "react-hanzi-lookup",
+  "version": "1.0.0",
+  "description": "HanziLookUpJS, made for React. React functional component for Chinese handwriting recognition. Little set-up required.",
   "keywords": [
-    "react",
-    "typescript",
-    "component",
-    "library",
-    "rollup",
-    "boilerplate"
+    "Chinese",
+    "character",
+    "handwriting",
+    "recognition",
+    "React"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/JWu-Git/react-library-boilerplate-for-npm"
-  },
   "main": "./dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

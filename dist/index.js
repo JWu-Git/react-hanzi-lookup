@@ -1,2 +1,2 @@
-export{Button}from"./components/Button/Button.js";export{Counter}from"./components/Counter/Counter.js";
+export{Hanzi}from"./components/Hanzi/Hanzi.js";
 //# sourceMappingURL=index.js.map

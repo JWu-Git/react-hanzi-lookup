@@ -1,0 +1,75 @@
+.hanzi-div {
+  box-sizing: border-box;
+  height: auto;
+  overflow: auto;
+  width: 100%;
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.hanzi-drawingBoard {
+  width: 250px;
+  height: 250px;
+}
+.hanzi-drawingBoard span {
+  display: none;
+}
+.hanzi-drawingBoard.loading {
+  background-color: white;
+}
+.hanzi-drawingBoard.loading span {
+  display: inline;
+  color: black;
+}
+.hanzi-commands {
+  width: 250px;
+  margin-top: 15px;
+}
+.hanzi-cmd {
+  width: 122px;
+  height: 36px;
+  background-color: #2096f3;
+  border: none;
+  text-align: center;
+  line-height: 36px;
+  cursor: pointer;
+  padding: 0;
+  color: white;
+  font-size: 20px;
+  border-radius: 4px;
+  transition: background-color 0.1s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.hanzi-cmd.cmdUndo {
+  float: right;
+}
+.hanzi-cmd:hover {
+  background-color: #1a82d2;
+}
+.hanzi-marginright {
+  margin-right: 5px;
+}
+.hanzi-charPicker {
+  border: 1px solid white;
+  padding: 3px;
+  height: 70px;
+  width: 400px;
+  font-size: 48px;
+  background-color: white;
+  overflow: hidden;
+  color: black;
+}
+
+.hanzi-LookupChars {
+  margin-bottom: 20px;
+}
+
+.hanzi-stroke-input-canvas {
+  height: 248px;
+  width: 248px;
+  border: 1px solid black;
+}
+
+.hanzi-hide {
+  display: none;
+}
