@@ -16,7 +16,7 @@ git clone [your repository]
 
 ```
 
-3\. **Update Package.json**: Open the cloned repository on your machine, head to the `package.json` file and change the `"name"`, `"version"`, and `"description"` to your desired values. Delete the `"repository"` field.
+3\. **Make the repository yours**: Open the cloned repository on your machine, head to the `package.json` file and change the `"name"`, `"version"`, and `"description"` to your desired values. Delete the `"repository"` field. Delete the /dist folder if you do not need it.
 
 4\. **Install Dependencies**: Navigate to the cloned repository's folder and install the required dependencies:
 
