@@ -1,4 +1,4 @@
-# react-hanzi-lookUp
+# react-hanzi-lookup
 
 React functional component for Chinese handwriting recognition. Easy set-up.
 Let your users write on a canvas for real-time prediciton of Chinese character.
@@ -28,11 +28,9 @@ import {Hanzi} from 'react-hanzi-lookup'
 
 ```
 
-<Hanzi handleChange={}/>
-
-The handleChange prop requires a function that should
-be able to handle an array of strings representing the
-predicted Chinese characters.
+<Hanzi handleChange={(predictedCharacters: string[]) => {
+    // Handle predictedCharacters array here
+}} />
 
 ```
 
