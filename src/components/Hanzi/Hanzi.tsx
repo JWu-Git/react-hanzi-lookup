@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import './styles.module.css'; //
+import './styles.css'; //
 
 interface Props {
   handleChange: (x: string[]) => any;
