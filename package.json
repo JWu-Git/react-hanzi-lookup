@@ -1,6 +1,6 @@
 {
   "name": "react-hanzi-lookup",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "HanziLookUpJS, made for React. React functional component for Chinese handwriting recognition. Little set-up required.",
   "keywords": [
     "Chinese",
