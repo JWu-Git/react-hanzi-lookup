@@ -10,6 +10,10 @@
     "rollup",
     "boilerplate"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JWu-Git/react-library-boilerplate-for-npm"
+  },
   "main": "./dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
