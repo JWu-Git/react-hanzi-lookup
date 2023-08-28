@@ -1,4 +1,4 @@
-**Your React + Typescript Component Library**
+# Your React + Typescript Component Library
 
 This is a boilerplate for creating a React + Typescript component library for upload to NPM, with Rollup configurations set.
 
@@ -34,9 +34,7 @@ npm install
 
 7\. **Export Components**: In the `src/index.ts` file, export each component again. Again, I highly suggest you do named exports to prevent multiple default exports. Refer to the existing `src/index.ts` file for guidance.
 
-8\. **Leave src/globals.d.ts unchanged**
-
-9\. **Build the dist folder**: Run this command to compile your /dist folder
+8\. **Build the dist folder**: Run this command to compile your /dist folder
 
 ```
 
@@ -44,7 +42,7 @@ npm run build-lib
 
 ```
 
-10\. **Login to NPM via terminal if you are not logged in**
+9\. **Login to NPM via terminal if you are not logged in**
 
 ```
 
@@ -52,7 +50,7 @@ npm login
 
 ```
 
-11\. **Publish to NPM**: Publish to NPM
+10\. **Publish to NPM**: Publish to NPM
 
 ```
 
